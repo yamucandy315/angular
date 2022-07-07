@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Creating table using DOM</title>
+</head> 
+<body> 
+        <form onsubmit="myFunction(); return false;" required>
+        <input type="text" id="pid" placeholder="Enter the product ID" pattern="[A-Z][0-9]{3}" required/> Capital letter followed by 3 digits<br/>
+        <input type="text" id="pDesc" placeholder="Enter the product Description" required/><br/>
+        <input type="Number" id="pQuantity" min=l placeholder="Enter the product Quantity" required/><br/>
+        <input type="date" id="pDate" placeholder="Enter the Order Date" required/><br/>
+
+        <input type="submit" value="Add to Cart"/>
+        <input type="reset" value="clear"/>
+
+        <button onclick="test()">submit</button>
+    </form>
+    <h1>My Shopping Cart</h1>
+    <table border=1 id="myTable">
+        <tr>
+            <th>Product Id</th>
+            <th>Product Description</th>
+            <th>Quantity</th>
+            <th>Order</th> 
+        </tr>
+    </table> 
+    <script src="fetch.js"></script>
+</body>
+</html>

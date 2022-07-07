@@ -1,0 +1,19 @@
+.main{
+    border: 8px solid gray;
+}
+.box{
+    height: 150px;
+    width: 150px;
+}
+.box1{
+    background-color:orange;
+    position: relative;
+    left: 80px;
+    
+}
+.box2{
+    background-color:white;
+}
+.box3{
+    background-color:green;
+}

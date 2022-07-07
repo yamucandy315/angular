@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+nav{
+    flex: 1;
+    text-align:center;
+}
+nav ul li button{
+
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+nav ul li button:hover{
+    color: aqua;
+}
+a{
+    text-decoration: none;
+    color: rgb(240, 21, 134);
+    font-size: 28px;
+}
+#login-form
+{
+    display: none;
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 2% auto;
+    background: rgba(0,0,0,0.3);
+    padding: 10px;
+    overflow: hidden;
+    
+   
+}
+.form-box .toggle-btn {
+    background-color: #f3c693;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin-left: 32%;
+    
+}
+.input-group-login{
+    top: 150px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-group-login a{
+    text-align: left;
+    color:blue;
+    font-size: medium;
+    padding-left: 50px;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+    background: #f3c693;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    text-overflow: clip;
+}
+.submit-btn:hover{
+    background-color: blueviolet;
+    transform: translateX(10px);
+}
+.check-box{
+   
+    text-align:end;
+}
+.check-box label{
+    
+    color: rgb(249, 249, 249);
+    font-size: 5px;
+    bottom: 68px;
+    position:relative;
+}
+#login{
+    left:50px;
+}
+#login input{
+    color: white;
+    font-size: 15;
+}

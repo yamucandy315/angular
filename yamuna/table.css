@@ -1,0 +1,12 @@
+span{
+    color: blue;
+}
+table{
+    padding: 20px;
+}
+tbody{
+    color: red;
+}
+thead{
+    color: rgb(0, 81, 255);
+}
