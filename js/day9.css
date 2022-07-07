@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: #b3ffff;
+    background: radial-gradient(rgba(179, 255, 255, 0.5), rgba(255, 255, 255, 0.5),
+    rgba(0, 0, 0, 0.2));
+    text-align: center;
+}
+#nameDiv {
+    margin-top: 50px;
+}
+.input{
+    font-size: 25px;
+    color: #000000;
+    font-weight: 700;
+    font-family: cursive;
+    margin:20px;
+}
+#submit{
+    width: 150px;
+    height: 40px;
+    font-size: 23px;
+    font-family: cursive;
+    background-color: #000000;
+    color:whitesmoke;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.5);
+    margin-top: 10px;
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+    background-color: rgb(27, 132, 253);
+}
+table, th, td{
+    border: 2px solid black;
+    padding: 5px;
+}
+th{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: arial;
+}
+td{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: georgia;
+}

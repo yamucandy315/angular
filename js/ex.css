@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    color: black;
+}
+.container{
+    border: 6px solid black;
+    display: inline-flex;
+}
+.flex-item{
+    color: blue;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+.item-1{
+    background-color: red;
+}
+.item-2{
+    background-color: black;
+}
+.item-3{
+    background-color: burlywood;
+}
+.item-4{
+    background-color: blue;
+}
+.item-5{
+    background-color: yellow;
+}

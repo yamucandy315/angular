@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>employee</title>
+    <link rel="stylesheet" type="text/css" href="day9.css"/>
+</head>
+<body>
+    <div id="container">
+        <div id="nameDiv" class="input">
+            <label>Name</label>
+            <input id="name" type="text" placeholder="Name"/>
+        </div>
+        <div class="input">
+            <label>EmpId</label>
+            <input id="empid" type="text" placeholder="ID"/>
+        </div>
+        <div class="input">
+            <label>Salary</label> 
+            <input id="salary" type="text" placeholder="SALARY"/>
+        </div>
+        <div class="input">
+            <label>Gender</label>
+            <input type="radio" value="male" id="gender">
+            <label for ="male">Male</label>
+            <input type="radio" value="female" id="gender">
+            <label for ="female">Female</label>
+        </div>
+        <button id="submit">Submit</button>
+    </div>
+    <table id="display">
+        <tr>
+            <th>Name</th>
+            <th>EmpId</th>
+            <th>Salary</th>
+            <th>Gender</th>
+        </tr>
+    </table>
+    <script src="day9.js"></script>
+</body>
+</html>
